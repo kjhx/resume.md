@@ -1,0 +1,16 @@
+{
+  "name": "resume-md",
+  "version": "1.0.0",
+  "description": "Transforms simple markdown into a stylized PDF or webpage.",
+  "main": "bin/render.js",
+  "dependencies": {
+    "pandoc": "^0.2.0",
+    "puppeteer": "^1.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kjhx",
+  "license": "MIT"
+}

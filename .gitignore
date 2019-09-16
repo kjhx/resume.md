@@ -1,4 +1,5 @@
 # Ignore personal information files
+# Comment these out if they don't matter to you!
 src/*
 out/*
 

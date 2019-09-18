@@ -1,5 +1,11 @@
+:root {
+    --header-font: 'Roboto', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+    --aux-font: 'Roboto Condensed', sans-serif;
+}
+
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--header-font);
     margin: 0 auto;
     overflow: auto;
     padding: 25px 50px;
@@ -10,7 +16,7 @@ body {
 ul {
     color: #595959;
     float: left;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--body-font);
     font-size: 1.0em;
     margin: 5px 0;
     padding-left: 0;
@@ -20,7 +26,7 @@ ul {
 p {
     color: #595959;
     float: left;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--body-font);
     font-size: 1.0em;
     margin: 5px 0;
 }
@@ -45,7 +51,8 @@ li:before {
 h1 {
     float: left;
     font-size: 3.0em;
-    font-weight: bold;
+    font-family: var(--header-font);
+    font-weight: 900;
     margin: 43px 0 0 0;
 }
 
@@ -54,8 +61,8 @@ h2 {
     color: #4d4d4d;
     display: inline-block;
     font-size: 1em;
-    font-weight: bold;
-    letter-spacing: 1.5px;
+    font-weight: 900;
+    /* letter-spacing: 1.5px; */
     margin-bottom: 5px;
     margin-top: 35px;
     padding-right: 10px;
@@ -71,15 +78,17 @@ h2 {
 h3 {
     float: left;
     font-size: 1.32em;
-    font-weight: normal;
+    font-weight: 700;
     margin-bottom: 0;
     margin-top: 15px;
 }
 
 h4 {
     float: right;
+    font-family: var(--aux-font);
     font-size: 1.0em;
-    font-weight: normal;
+    font-weight: 700;
+    text-transform: uppercase;
     margin-bottom: 0;
     margin-top: 19px;
 }

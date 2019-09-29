@@ -1,7 +1,11 @@
 {
   "name": "resume-md",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Transforms simple markdown into a stylized PDF or webpage.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjhx/resume.md.git"
+  },
   "main": "bin/render.js",
   "dependencies": {
     "pandoc": "^0.2.0",

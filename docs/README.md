@@ -8,7 +8,7 @@ I was tired of writing resumes in InDesign, Word, and other software. I needed s
 
 ## Features
 
-- ~~**Outputs multiple documents.** A resume, cover letter, and your references.~~
+- **Outputs multiple documents.** A resume, cover letter, ~~and your references~~.
 - **Write information, not styles.** The script handles the looks.
 - **Minimal JS.** It's simple to extend the code to fit your needs.
 - **Uses simple CSS and Markdown.** Easy to understand and modify.
@@ -31,7 +31,7 @@ By default, the `.gitignore` is set to ignore the entire `src/` and `out/` direc
 
 ## Dependencies
 
-- Puppeteer v1.19.0
-- Pandoc v0.2.0
+- Puppeteer 1.20.0
+- Pandoc 0.2.0
 
 [epsalt-resume-builder]: https://github.com/epsalt/resume-builder
